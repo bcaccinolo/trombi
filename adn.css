@@ -1,0 +1,56 @@
+
+body.fullscreen #home .info {
+    display: none;
+}
+#about {
+    padding: 100px 10px 40px;
+    text-shadow: rgba(255, 255, 255, 0.3) 0px -1px 0;
+    font-size: 13px;
+    text-align: center;
+    background: #161618;
+}
+#about p {
+    margin-bottom: 8px;
+}
+#about a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.rounded {
+  border:none;
+}
+
+#button_list {
+  border:none;
+}
+
+.buttons {
+  float:left;
+  display:inline;
+  width:80px;
+  border:none;
+}
+
+.whiteButton {
+  margin: 2px;
+}
+
+#person_picture {
+  margin:10px 0 0 10px;
+}
+
+.data_title {
+  font-size:12px;
+}
+.person_data {
+  font-size:14px;
+}
+
+#q {
+  margin:8px;
+  width:260px;
+  font-size:22px;
+  padding: 2px;
+}

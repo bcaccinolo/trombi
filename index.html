@@ -1,0 +1,162 @@
+<!doctype html>
+<html> <head> <meta charset="UTF-8" />
+    <title>ADN Aden</title>
+    <style type="text/css" media="screen">@import "./jqtouch/jqtouch.min.css";</style>
+    <style type="text/css" media="screen">@import "./themes/apple/theme.min.css";</style>
+    <link href="adn.css" rel="stylesheet" type="text/css" />
+</head>
+    
+<body>
+
+  <div id="home" class="current">
+      <div class="toolbar">
+          <h1>ADN Aden</h1>
+          <a class="button flip" id="" href="#halloffame">About</a>
+      </div>
+  
+      <h1>Rechercher un collègue</h1>
+
+      <ul class='rounded' id='selection'>
+        <li class='arrow'>
+          <a href='#buttons_lastname' id="by_lastname" class=''>
+          Par Nom
+          </a></li>
+        
+        <li class='arrow'>
+          <a href='#buttons_firstname' id="by_firstname" class=''>
+          Par Prénom
+          </a></li>
+
+        <li class='arrow'>
+          <a href='#search' id="by_search" class=''>
+            Recherche
+          </a></li>
+      </ul>
+
+  </div>
+
+  <div id="buttons_lastname" class="">
+      <div class="toolbar">
+          <h1>ADN par nom</h1>
+          <a class="back" href="#">Home</a>
+      </div>
+      
+      <ul id="button_list">
+      </ul>
+      
+  </div>
+
+  <div id="buttons_firstname" class="">
+      <div class="toolbar">
+          <h1>ADN par prénom</h1>
+          <a class="back" href="#">Home</a>
+      </div>
+      
+      <ul id="button_list">
+      </ul>
+
+  </div>
+
+  <div id="search" class="">
+      <div class="toolbar">
+          <h1>ADN Aden</h1>
+          <a class="back" href="#">Home</a>              
+      </div>
+      
+      <form method="get">
+    		<div>
+    			<input name="q" id="q" type="text">
+    			<a href="#" id="clear_search">
+    			 <img src="themes/close.png" />
+    			</a>
+    		</div> 
+    	</form>
+
+    	<ul id="person_list"> 
+    	</ul>
+      
+  </div>
+
+
+  <div id="person" class="">
+      <div class="toolbar">
+          <h1 >Detail</h1>          
+          <a class="back" href="#">Retour</a>
+      </div>
+      
+      <img id="person_picture" src="pictures/Lafourcade_Pierre.jpg"/>
+      <h1 id="person_name">Benoit Caccinolo</h1>
+            
+      <ul>
+      <li>
+
+        <span class="data_title">Tel: </span>
+        <span class="person_data" id="person_phone"><a href="tel:555-1212" rel="external">555-1212</a></span>
+      </li>
+      <li>
+        <span class="data_title">Mail: </span>
+        <span class="person_data" id="person_email"><a href="mailto:email" rel="external">email</a></span>
+      </li>
+      <li>
+        <span class="data_title">Service: </span>
+        <span class="person_data" id="person_sector">sector</span>
+      </li>
+      </ul>
+  </div>
+      
+  <div id="halloffame" class="">
+    <div class="toolbar">
+         <h1 >Detail</h1>          
+         <a class="back" href="#">Retour</a>
+     </div>
+     <h1>
+     Développer par: 
+     </h1>
+     
+     <ul class='rounded' id='person_list'>
+       <li class="arrow">
+         <a class="about_me" href="#me">Benoit Caccinolo</a>
+       </li>
+     </ul>     
+  </div>
+  
+  <div id="me" class="">
+        <div class="toolbar">
+            <h1>Detail</h1>          
+            <a class="back" href="#">Retour</a>
+        </div>
+
+        <img id="person_picture" src="pictures/Caccinolo_Benoit.jpg">
+        <h1 id="person_name">Benoit Caccinolo</h1>
+        <ul>
+        <li>
+          <span class="data_title">Tel: </span>
+          <span class="person_data" id="person_phone">
+            <a href="tel:01 76 63 03 37" rel="external" target="_self">01 76 63 03 37</a>
+          </span>
+          
+          <a href="tel:555-1212" rel="external">555-1212</a>
+          
+          
+        </li>
+        <li>
+          <span class="data_title">Mail: </span>
+          <span class="person_data" id="person_email">Benoit.Caccinolo@adenclassifieds.com</span>
+        </li>
+        <li>
+          <span class="data_title">Service: </span>
+          <span class="person_data" id="person_sector">Architecte logiciel - DSI</span>
+        </li>
+        </ul>
+    </div>
+  
+<script type="text/javascript" charset="utf-8" src="./jqtouch/jquery.min.js" >          </script>
+<script type="text/javascript" charset="utf-8" src="./jqtouch/jqtouch.min.js" >         </script>
+<script type="text/javascript" charset="utf-8" src="./quicksilver/quicksilver.js" >     </script>
+<script type="text/javascript" charset="utf-8" src="./persons/persons.js" >             </script>
+<script type="text/javascript" charset="utf-8" src="./persons/listing_by_lastname.js" > </script>
+<script type="text/javascript" charset="utf-8" src="./persons/listing_by_firstname.js"> </script>
+<script type="text/javascript" charset="utf-8" src="./adn.js">                          </script>
+
+</body>
+</html>
