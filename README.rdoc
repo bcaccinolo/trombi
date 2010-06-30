@@ -6,7 +6,6 @@ A simple web app listing all the colleagues of your company.
 Benoit Caccinolo (benoit.caccinolo<AT>gmail.com)
 
 == Todo
-* clean the About page
 * have an iphone app icon
 
 == License
