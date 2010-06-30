@@ -1,27 +1,14 @@
+Trombi
+======
+
+About:
+A simple web app listing all the colleagues of your company. 
+
+Author:
+Benoit Caccinolo (benoit.caccinolo<AT>gmail.com)
+
 Todo 
-
-√ mettre tout cela sur GIT.
-√ Le terme "secteur" est pas approprié (service ? ) 
-√ clean sur la structure du projet.
-√ MEP 
-√ mettre en fonction
-√ faire un populate sur le onclick
-
-√ unifier les données 
-  √ créer un nouveau fichier persons.js
-  √ remplacer les personnes par des id dans listing_firstname
-  √ modifier le code pour prendre en compte tout cela.
-  √ remplacer les personnes par des id dans listing lastname
-  √ modifier le code pour prendre en compte tout cela.
-  
-√ factoriser les méthodes events_on
-
-√ tel cliquable
-√ mail cliquable
-√ uniformiser les noms: majuscules, espaces....
-
-+ nettoyer ma page About
-
-+ bien ordonné les listes
-
++ delete .DS_Store files
++ clean the About page
++ have an iphone app icon
 
