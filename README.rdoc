@@ -1,17 +1,17 @@
-Trombi
-======
+= Trombi
 
-About:
+== About
+
 A simple web app listing all the colleagues of your company. 
 
-Author:
+== Author
 Benoit Caccinolo (benoit.caccinolo<AT>gmail.com)
 
-Todo:
-+ clean the About page
-+ have an iphone app icon
+== Todo
+* clean the About page
+* have an iphone app icon
 
-License:
+== License
 
 (The MIT License)
 
